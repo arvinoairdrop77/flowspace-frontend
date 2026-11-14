@@ -559,7 +559,7 @@ export default function BoardDetail() {
             </button>
 
             {/* PROFILE DROPDOWN */}
-            <div className="relative ml-2 hidden md:block">
+            <div className="relative ml-2 block">
               <button 
                 onClick={(e) => { e.stopPropagation(); setIsProfileOpen(!isProfileOpen); }}
                 className="flex items-center gap-2 pl-4 border-l border-slate-200 dark:border-slate-800 outline-none"
